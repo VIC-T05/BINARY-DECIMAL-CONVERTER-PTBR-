@@ -1,0 +1,36 @@
+-------------------------|    Conversor Binário/Decimal em C      |-------------------------------
+  
+Este código em C implementa um conversor binário/decimal com um menu de opções interativo. As 
+funcionalidades incluem:
+    
+    Tela de Inicialização:
+      Exibe uma mensagem de boas-vindas e aguarda um segundo antes de limpar a tela.
+    
+    Menu de Opções  
+      Opção 1: Converte um número decimal para binário.
+      Opção 2: Converte um número binário para decimal.
+  
+    Verificação de Entrada:  
+      Garante que o usuário insira opções válidas no menu.
+      Verifica se os números inseridos são válidos (inteiro no caso de decimal e binário no caso de
+      binário).
+  
+    Conversão Decimal para Binário:  
+      Solicita um número decimal inteiro.
+      Converte o número para binário e exibe na tela.
+      Permite ao usuário continuar ou voltar ao menu.
+  
+    Conversão Binário para Decimal: 
+      Solicita um número binário.
+      Verifica se o número inserido é binário.
+      Converte o número para decimal e exibe na tela.
+      Permite ao usuário continuar ou voltar ao menu.
+  
+    Looping de Menu. 
+    Após a conclusão de uma operação, o programa pergunta se o usuário deseja realizar outra operação
+    ou voltar ao menu principal.
+    O usuário pode sair do programa selecionando a opção apropriada.
+
+
+ O código é estruturado com loops para possibilitar a execução contínua das operações, oferecendo uma
+experiência interativa de conversão binário/decimal.
