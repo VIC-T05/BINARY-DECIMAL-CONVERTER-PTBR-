@@ -1,0 +1,34 @@
+-------------------------|    Binary/Decimal Converter in C      |-------------------------------
+
+This C code implements a binary/decimal converter with an interactive options menu.
+The functionalities include:
+
+    Startup Screen:
+      Displays a welcome message and waits for a second before clearing the screen.
+    
+    Options Menu:
+      Option 1: Converts a decimal number to binary.
+      Option 2: Converts a binary number to decimal.
+  
+    Input Validation:
+      Ensures the user inputs valid choices in the menu.
+      Checks if the entered numbers are valid (integer for decimal and binary for binary).
+  
+    Decimal to Binary Conversion:
+      Prompts for an integer decimal number.
+      Converts the number to binary and displays it on the screen.
+      Allows the user to continue or go back to the menu.
+  
+    Binary to Decimal Conversion:
+      Prompts for a binary number.
+      Checks if the entered number is binary.
+      Converts the number to decimal and displays it on the screen.
+      Allows the user to continue or go back to the menu.
+  
+    Menu Loop:
+      After completing an operation, the program asks if the user wants to perform another operation
+      or return to the main menu.
+      The user can exit the program by selecting the appropriate option.
+
+The code is structured with loops to enable continuous execution of operations, providing an interactive
+binary/decimal conversion experience.
